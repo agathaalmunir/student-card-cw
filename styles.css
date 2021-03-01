@@ -1,0 +1,42 @@
+.body{
+    background-color: rgb(172, 172, 172);
+}
+
+.card {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto;
+    width: 450px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.card-top {
+    background-image: url("../Student-card-cw/headshot.jpg");
+    height: 300px;
+    width: 450px;
+    background-position: center center;
+    background-size:cover;
+    border: solid rgb(224, 1, 1);
+    border-width: 0px 0px 5px 0px;
+    border-top-right-radius: 40px;
+}
+
+.new-student {
+    color: white;
+    background-color: rgb(224, 1, 1);
+    width: 125px;
+    max-height: 25px;
+    text-align:center;
+    padding: 5px;
+}
+
+.card-bottom {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 40px 30px 40px;
+    width: 450px;
+    background-color: white;
+    text-align: left;
+    border-bottom-left-radius: 40px;
+}
